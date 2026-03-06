@@ -22,6 +22,6 @@ embeddings = model.encode(
     show_progress_bar=True
 )
 
-np.save("embeddings/product_embeddings.npy", embeddings)
+np.save("embeddings/product_embeddings_v2.npy", embeddings)
 
 print("Embeddings saved.")
